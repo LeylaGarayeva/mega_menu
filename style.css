@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0 30px;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.51);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.navFrame>ul>li {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid rgba(211, 211, 211, 0.51);
+    border-right: none;
+    border-bottom: 2px solid transparent;
+    /*position: relative;*/
+}
+
+.navFrame>ul>li:last-child {
+    border-right: 2px solid rgba(211, 211, 211, 0.51);
+}
+
+.navFrame>ul>li.custom-dropdown:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    margin-left: 10px;
+}
+.custom-dropdown{
+    position: relative;
+}
+.custom-dropdown>ul {
+    display: none;
+    position: absolute;
+    padding: 13px 0;
+    min-width: 23%;
+    left: -2px;
+    top: 48px;
+    border: 2px solid rgba(211, 211, 211, 0.51);
+    border-top: none;
+}
+.custom-dropdown:hover>ul{
+    display: block;
+}
+.navFrame>ul>li:hover{
+    border-bottom-color: white;
+}
+.custom-dropdown>ul>li {
+    padding: 5px 50px;
+}
+
+.navFrame>ul {
+    display: flex;
+    position: relative;
+    margin-bottom: -2px;
+}
+.dropdown-insider>ul{
+    left: 137px;
+    top: -41px;
+    border-left: none;
+    display: none;
+}
+.login{
+    width: 15px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+
+}
+.header-left{
+    margin-left: 200px;
+    color:grey;
+}
+.header-left:hover{
+    margin-left: 200px;
+    color:grey;
+    text-decoration: none;
+}
+.header-left1:hover{
+    color:grey;
+    text-decoration: none;
+}
+.header-left1{
+    color:grey;
+    text-decoration: none;
+}
+.star{
+    width: 20px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.content{
+    height: 700px;
+}
+footer{
+    height: 70px;
+    border-top: 1px solid silver;
+    padding: 2%;
+}
+
+.link{
+      width: 45%;
+      margin-left: 25%;
+      margin-top:25%; 
+      height: 5%;
+}
+span{
+    margin-left:25%;
+}
+.date{
+     width: 45%;
+     margin-left: 25%;
+     margin-top:2%; 
+     height: 5%;
+}
+.button {
+    background-color: white;
+    border: 1px solid silver;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.button:hover {
+    background-color: red;
+    border: 1px solid silver;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 5%;
+    color:white;
+
+}
